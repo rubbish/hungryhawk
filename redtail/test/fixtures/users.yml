@@ -1,3 +1,19 @@
+# == Schema Information
+# Schema version: 20090113051314
+#
+# Table name: users
+#
+#  id              :integer(4)      not null, primary key
+#  email           :string(255)
+#  hashed_password :string(40)
+#  first_name      :string(255)
+#  last_name       :string(255)
+#  email_confirmed :boolean(1)
+#  admin           :boolean(1)
+#  created_at      :datetime
+#  updated_at      :datetime
+#
+
 ron:
   email: ron@ron.com
   hashed_password: 5eb942810a75ebc850972a89285d570d484c89c4 # my_password
